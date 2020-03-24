@@ -1,0 +1,44 @@
+body {
+    background: rgb(93, 167, 228);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgb(56, 40, 40); 
+}
+
+div {
+    text-align: left;
+    padding: 8px;
+}
+
+#flista {
+    width:150px
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+/*#numAdd {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    margin: left;
+    box-shadow: 1px 2px 1px rgb(56, 40, 40);
+}*/

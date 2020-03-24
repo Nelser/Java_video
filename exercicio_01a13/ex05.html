@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <link rel="stylesheet" type="text/css" href="StyleJs.css" media="screen">
+</head>
+<body>
+    <h1>Iniciando com DOM</h1>
+    <p>aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        //var p1 = document.getElementsByTagName("algumName")[0] //pega a primeira tag P
+        //document.getElementById("algumId") auto-explicativo
+        //document.write(p1.innerText) mostra o texto 
+
+        document.querySelector("div#msg").innerHTML = "Não clique"//pega no estilo css
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="StyleJs.css" media="screen">
+    </head>
+    <body>
+        <div id ="area">
+            Sarve
+        </div>
+        <script>
+
+            var a = document.getElementById("area")
+            a.addEventListener('click', clicar)
+            a.addEventListener('mouseenter', entrar)
+            a.addEventListener('mouseout', sair)
+
+            function clicar() {
+                a.innerText = "Pra que agredir!"
+                a.style.background = "black" 
+            }
+
+            function entrar() {
+                a.innerText = "Entrou!"
+            }
+
+            function sair() {
+                a.innerText = "Saiu!"
+                a.style.background = "rgb(134, 11, 87)"
+            }
+        </script>
+    </body>
+</html>
